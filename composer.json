@@ -1,0 +1,28 @@
+{
+    "name": "simplylink/resource_server_sdk",
+    "description": "SDK for simplylink resource server",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Friedman",
+            "email": "fridmanron@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.*",
+        "symfony/monolog-bundle": "@stable",
+        "nategood/httpful": "^0.2.20",
+        "guzzlehttp/guzzle": "^6.3",
+        "jms/serializer": "^1.8",
+        "simplylink/oauth_sdk": "dev-master",
+        "simplylink/utils": "dev-master"
+
+    },
+    "autoload": {
+        "psr-0": {
+            "SimplyLink": "src/"
+        }
+    }
+}

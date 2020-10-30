@@ -1,6 +1,6 @@
 <?php
 
-namespace SimplyLink\ResourceServerBundle\Controller;
+namespace Simplylink\ResourceServerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

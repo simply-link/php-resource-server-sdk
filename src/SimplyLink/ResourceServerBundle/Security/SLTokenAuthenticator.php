@@ -7,11 +7,11 @@
  */
 
 
-namespace SimplyLink\ResourceServerBundle\Security;
+namespace Simplylink\ResourceServerBundle\Security;
 
 
-use SimplyLink\ResourceServerBundle\Utils\DataObjects\SLoAuthAccessTokenIntrospection;
-use SimplyLink\UtilsBundle\Utils\GenericDataManager;
+use Simplylink\ResourceServerBundle\Utils\DataObjects\SLoAuthAccessTokenIntrospection;
+use Simplylink\UtilsBundle\Utils\GenericDataManager;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;

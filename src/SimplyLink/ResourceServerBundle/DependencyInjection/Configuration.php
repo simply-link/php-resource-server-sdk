@@ -1,6 +1,6 @@
 <?php
 
-namespace SimplyLink\ResourceServerBundle\DependencyInjection;
+namespace Simplylink\ResourceServerBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

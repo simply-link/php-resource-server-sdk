@@ -1,9 +1,9 @@
 <?php
 
-namespace SimplyLink\ResourceServerBundle;
+namespace Simplylink\ResourceServerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SimplyLinkResourceServerBundle extends Bundle
+class SimplylinkResourceServerBundle extends Bundle
 {
 }

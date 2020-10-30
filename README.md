@@ -1,4 +1,4 @@
-# SimplyLink resource server SDK
+# Simplylink resource server SDK
 
 
 Resource server is use to hold simplylink resources such as apps and services. 
@@ -40,7 +40,7 @@ simplylink_resource_server:
 ```
     $bundles = [
         ...
-        new SimplyLink\ResourceServerBundle\SimplyLinkResourceServerBundle()
+        new Simplylink\ResourceServerBundle\SimplylinkResourceServerBundle()
     ]
 ```
 

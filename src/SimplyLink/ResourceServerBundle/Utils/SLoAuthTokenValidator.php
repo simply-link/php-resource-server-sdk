@@ -6,13 +6,13 @@
  * Time: 9:44
  */
 
-namespace SimplyLink\ResourceServerBundle\Utils;
+namespace Simplylink\ResourceServerBundle\Utils;
 
 use GuzzleHttp\Client;
 
-use SimplyLink\AuthSDKBundle\Api\BaseSimplyLinkConnector;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionAuthentication;
-use SimplyLink\UtilsBundle\Utils\SLBaseUtils;
+use Simplylink\AuthSDKBundle\Api\BaseSimplylinkConnector;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionAuthentication;
+use Simplylink\UtilsBundle\Utils\SLBaseUtils;
 
 class SLoAuthTokenValidator
 {
@@ -32,7 +32,7 @@ class SLoAuthTokenValidator
     
     
     /**
-     * Validate token with SimplyLink oAuth server
+     * Validate token with Simplylink oAuth server
      *
      * @param string $token The token passed in  the Authorization header
      * @param string $clientIP The REMOTE_ADDR of the request
@@ -52,7 +52,7 @@ class SLoAuthTokenValidator
         $options = [];
         $options['headers'] = $headers;
         
-        $domain = BaseSimplyLinkConnector::getDomainForEnvironment();
+        $domain = BaseSimplylinkConnector::getDomainForEnvironment();
     
         $responseArray = [];
         try{

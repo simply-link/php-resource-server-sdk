@@ -6,12 +6,12 @@
  * Time: 8:43
  */
 
-namespace SimplyLink\ResourceServerBundle\Security;
+namespace Simplylink\ResourceServerBundle\Security;
 
 
 
-use SimplyLink\ResourceServerBundle\Utils\DataObjects\SLoAuthAccessTokenIntrospection;
-use SimplyLink\ResourceServerBundle\Utils\SLoAuthTokenValidator;
+use Simplylink\ResourceServerBundle\Utils\DataObjects\SLoAuthAccessTokenIntrospection;
+use Simplylink\ResourceServerBundle\Utils\SLoAuthTokenValidator;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;

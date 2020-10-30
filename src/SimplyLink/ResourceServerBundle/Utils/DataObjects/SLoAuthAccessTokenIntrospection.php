@@ -6,10 +6,10 @@
  * Time: 8:30
  */
 
-namespace SimplyLink\ResourceServerBundle\Utils\DataObjects;
+namespace Simplylink\ResourceServerBundle\Utils\DataObjects;
 
-use SimplyLink\AuthSDKBundle\Model\SLoAuthAccessToken;
-use SimplyLink\UtilsBundle\Utils\GenericDataManager;
+use Simplylink\AuthSDKBundle\Model\SLoAuthAccessToken;
+use Simplylink\UtilsBundle\Utils\GenericDataManager;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 
@@ -17,7 +17,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
  * Class SLoAuthAccessTokenIntrospection
  * @see For more information: https://tools.ietf.org/html/rfc7662
  * @see Jason Web Tokens: https://tools.ietf.org/html/rfc7519
- * @package SimplyLink\AuthSDKBundle\Utils\DataObjects
+ * @package Simplylink\AuthSDKBundle\Utils\DataObjects
  */
 class SLoAuthAccessTokenIntrospection implements UserInterface
 {

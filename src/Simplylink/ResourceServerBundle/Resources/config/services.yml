@@ -1,0 +1,20 @@
+services:
+#    simplylink_resource_server.example:
+#        class: Simplylink\ResourceServerBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+
+
+    simplylink.oauth.resource_server:
+            class: Simplylink\ResourceServerBundle\Utils\SLoAuthTokenValidator
+            arguments: ["%auth_username","%auth_password"]
+
+
+
+    simplylink.oauth.resource_server.guard:
+        class: Simplylink\ResourceServerBundle\Security\SLTokenAuthenticator
+
+
+    simplylink.oauth.resource_server.client:
+        class: Simplylink\ResourceServerBundle\Security\SLClientProvider
+
